@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="com.akotkowski.nested-camera"
+      version="0.2.4">
+    <name>Nested camera plugin</name>
+    <description>Used to show camera preview inside cordova application</description>
+    <license>Apache 2.0</license>
+    <keywords>camera,preview,nested</keywords>
+
+        <!-- android -->
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.CAMERA" />
+        </config-file>
+
+        <source-file src="src/android/com/akotkowski/camera/BackgroundCameraLauncher.java" target-dir="src/com/akotkowski/camera" />
+				<source-file src="src/android/com/akotkowski/camera/Preview.java" target-dir="src/com/akotkowski/camera" />
+		</platform>
+
+</plugin>
