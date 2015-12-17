@@ -1,20 +1,19 @@
 #nested-camera-plugin
-======================
+---------------
 
 Disclaimer:
 This plugin is work in progress. I don't guarantee that it works. Feel free to use it, fix it, change it.
------------
+
 
 ## Installation
 To install this plugin, follow the [Command-line Interface Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface).
-
-
 If you are not using the Cordova Command-line Interface, follow [Using Plugman to Manage Plugins](http://cordova.apache.org/docs/en/edge/plugin_ref_plugman.md.html).
 
 ## Supported platforms
 For now it's only Android
 
 ## How to use it
+Import script BackgroundCamera.js
 Example below:
 ```
 function initBackgroundCamera() {
